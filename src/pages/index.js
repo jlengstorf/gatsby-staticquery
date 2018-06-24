@@ -1,20 +1,9 @@
 import React from 'react';
-import { graphql } from 'gatsby';
 import Header from '../components/Header';
 
-export default ({ data }) => (
+export default () => (
   <>
-    <Header title={data.site.siteMetadata.title} />
+    <Header />
     <div>Hello world!</div>
   </>
 );
-
-export const query = graphql`
-  query HeadingQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
