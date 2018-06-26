@@ -1,10 +1,5 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+# Using StaticQuery in Gatsby
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+This is companion code for the egghead lesson [Load Data using GraphQL Queries Directly in a Gatsby v2 Component with StaticQuery](https://egghead.io/lessons/gatsby-load-data-using-graphql-queries-directly-in-a-gatsby-v2-component-with-staticquery).
 
-## Running in development
-`gatsby develop`
+See the video for a walkthrough of implementing `StaticQuery`, or check [the diff](https://github.com/jlengstorf/gatsby-staticquery/compare/before-staticquery...master) to get right down to business.
